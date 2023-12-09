@@ -18,7 +18,8 @@ abc2 =['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ....'
 lista = ['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ....','.. .....','... .','... ..','... ...','... ....', '... .....','.... .','.... ..','.... ...','.... ....', '.... .....','..... .','..... ..', '..... ...','..... ....','..... .....']
 bra = [' ']
 for i in range(1,241):
-  codigo = st.text_input('Digite o código para o tradutor decodificar')
+  st.write('Digite o código para o tradutor decodificar')
+  codigo = st.text_input()
   butao = st.button('Decodificar')
   for cod1 in codigo:
     abc.append(cod1)
