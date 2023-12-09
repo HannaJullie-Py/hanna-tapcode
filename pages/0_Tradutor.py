@@ -22,11 +22,11 @@ butao = st.button('Decodificar')
 for cod1 in codigo:
   abc.append(cod1)
   texto = texto + tradu
-  if codigo == '  ':
+  if cod1 == '  ':
     tradu = ' '
-  if codigo == '. .':
+  if cod1 == '. .':
     tradu = abc[1]
-  if codigo == '. ..':
+  if cod1 == '. ..':
     tradu = abc[2]
   if butao:
     st.caption(texto)
