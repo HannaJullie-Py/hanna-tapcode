@@ -23,7 +23,7 @@ for cod1 in codigo:
   texto = texto + tradu
   if codigo == '  ':
     tradu = ' '
-  if == '. .':
+  if codigo == '. .':
     tradu = abc[1]
-  if == '. ..':
+  if codigo == '. ..':
     tradu = abc[2]
