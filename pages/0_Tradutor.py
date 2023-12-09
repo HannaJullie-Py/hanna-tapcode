@@ -17,18 +17,16 @@ i = 0
 abc2 =['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ....','.. .....','... .','... ..','... ...','... ....', '... .....','.... .','.... ..','.... ...','.... ....', '.... .....','..... .','..... ..', '..... ...','..... ....','..... .....']
 lista = ['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ....','.. .....','... .','... ..','... ...','... ....', '... .....','.... .','.... ..','.... ...','.... ....', '.... .....','..... .','..... ..', '..... ...','..... ....','..... .....']
 bra = [' ']
-for i in range(1,241):
-  st.write('Digite o código para o tradutor decodificar')
-  codigo = st.text_area('',key='str')
-  butao = st.button('Decodificar')
-  for cod1 in codigo:
+codigo = st.text_area('Digite o código para o tradutor decodificar',key='str')
+butao = st.button('Decodificar')
+for cod1 in codigo:
     abc.append(cod1)
     texto = texto + tradu
-    if cod1 == '  ':
+    if cod1 == ' ' + ' ':
       tradu = ' '
-    if cod1 == '. .':
+    if cod1 == '. .' + ' ':
       tradu = abc[1]
-    if cod1 == '. ..':
+    if cod1 == '. ..' + ' ':
       tradu = abc[2]
     if butao:
       st.caption(texto)
