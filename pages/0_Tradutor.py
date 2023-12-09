@@ -24,11 +24,11 @@ for i in range(1,241):
     for cod1 in codigo:
         abc.append(cod1)
         texto = texto + tradu
-        if cod1 == ' ' + ' ':
+        if cod1 == " " + " ":
             tradu = abc[0]
-        if cod1 == '. .' :
+        if cod1 == ". .":
             tradu = abc[1]
-        if cod1 == '. ..':
+        if cod1 == ". ..":
             tradu = abc[2]
         if butao:
             st.write(texto)
