@@ -18,16 +18,17 @@ abc2 =['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ....'
 lista = ['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ....','.. .....','... .','... ..','... ...','... ....', '... .....','.... .','.... ..','.... ...','.... ....', '.... .....','..... .','..... ..', '..... ...','..... ....','..... .....']
 bra = [' ']
 
-for cod1 in codigo:
+for i in range(1,241):
     codigo = st.text_area('Digite o código para o tradutor decodificar',key='str')
-    butao = st.button('Decodificar')
-    abc.append(cod1)
-    texto = texto + tradu
-    if cod1 == ' ' + ' ':
-      tradu = ' '
-    if cod1 == '. .' + ' ':
-      tradu = abc[1]
-    if cod1 == '. ..' + ' ':
-      tradu = abc[2]
-    if butao:
-      st.caption(texto)
+    butao = st.button('Decodificar')   
+    for cod1 in codigo:
+        abc.append(cod1)
+        texto = texto + tradu
+        if cod1 == ' ' + ' ':
+            tradu = abc[0]
+        if cod1 == '. .' :
+            tradu = abc[1]
+        if cod1 == '. ..':
+            tradu = abc[2]
+        if butao:
+            st.write(texto)
