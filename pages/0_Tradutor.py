@@ -19,7 +19,7 @@ lista = ['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ...
 bra = [' ']
 
 for i in range(1,241):
-    split = abc.append()
+    split = ''
     codigo = st.text_area('Digite o código para o tradutor decodificar', key=split)
     butao = st.button('Decodificar')   
     for cod1 in codigo:
