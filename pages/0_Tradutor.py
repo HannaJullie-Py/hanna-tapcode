@@ -25,12 +25,12 @@ butao = st.button('Decodificar')
 texto = ''
 samo = 0
 tradu = ''
-codigo += ' '
+codigo += '  '
 
 
 for cod in codigo:
     if cod == ' ':
-        samo +1
+        samo +=1
     if samo < 2:
         tradu = tradu + cod
     if samo == 2:
@@ -39,7 +39,7 @@ for cod in codigo:
         if tradu == '. ..':
             texto = texto + 'B'
         tradu = ''
-    if samo >3:
+    if samo ==3:
         samo = 0
 st.caption(texto)
 st.write('https://colab.research.google.com/drive/1yPsr3BiYyA4xaDVIogUY7xyFEGsH9Xuc?usp=drive_open#scrollTo=27yaoUGuANAr')
