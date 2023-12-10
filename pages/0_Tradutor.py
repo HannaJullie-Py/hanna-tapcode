@@ -25,12 +25,12 @@ butao = st.button('Decodificar')
 texto = ''
 samo = 0
 tradu = ''
-codigo += '  '
+codigo += ' '
 
 
 for cod in codigo:
-    if cod == '  ':
-        samo = 2
+    if cod == ' ':
+        samo +1
     if samo < 2:
         tradu = tradu + cod
     if samo == 2:
