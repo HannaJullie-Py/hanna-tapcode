@@ -40,5 +40,4 @@ for cod in codigo:
             texto = texto + 'B'
         tradu = ''
         soma = 0
-    if butao:
-        st.write(texto)
+st.write(texto)
