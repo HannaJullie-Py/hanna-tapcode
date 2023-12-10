@@ -17,15 +17,13 @@ i = 0
 abc2 =['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ....','.. .....','... .','... ..','... ...','... ....', '... .....','.... .','.... ..','.... ...','.... ....', '.... .....','..... .','..... ..', '..... ...','..... ....','..... .....']
 lista = ['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ....','.. .....','... .','... ..','... ...','... ....', '... .....','.... .','.... ..','.... ...','.... ....', '.... .....','..... .','..... ..', '..... ...','..... ....','..... .....']
 bra = [' ']
+samo = 0
 
-for i in range(1,241):
-    split = ''
-    codigo = st.text_area('Digite o código para o tradutor decodificar', key=split)
-    butao = st.button('Decodificar')   
+codigo = st.text_area('Digite o código para o tradutor decodificar')
+butao = st.button('Decodificar')   
     for cod1 in codigo:
-        split(cod1)
         texto = texto + tradu
-        if cod1 == " " + " ":
+        if cod1 == " ":
             tradu = abc[0]
         if cod1 == ". .":
             tradu = abc[1]
