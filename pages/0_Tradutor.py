@@ -35,7 +35,7 @@ for cod in codigo:
         tradu = tradu + cod
     if samo == 2:
         if tradu == '  ':
-            texto = texto + ''
+            texto = texto + ' '
         if tradu == '. .':
             texto = texto + 'A'
         if tradu == '. ..':
