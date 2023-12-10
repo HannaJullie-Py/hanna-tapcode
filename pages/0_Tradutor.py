@@ -21,13 +21,13 @@ samo = 0
 
 codigo = st.text_area('Digite o código para o tradutor decodificar')
 butao = st.button('Decodificar')   
-    for cod1 in codigo:
-        texto = texto + tradu
-        if cod1 == " ":
-            tradu = abc[0]
-        if cod1 == ". .":
-            tradu = abc[1]
-        if cod1 == ". ..":
-            tradu = abc[2]
-        if butao:
-            st.write(texto)
+for cod1 in codigo:
+    texto = texto + tradu
+    if cod1 == " ":
+        tradu = abc[0]
+    if cod1 == ". .":
+        tradu = abc[1]
+    if cod1 == ". ..":
+        tradu = abc[2]
+    if butao:
+        st.write(texto)
