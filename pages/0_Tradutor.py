@@ -29,5 +29,5 @@ for cod1 in codigo:
         tradu = abc[1]
     if cod1 == ". ..":
         tradu = abc[2]
-    if butao:
-        st.write(texto)
+if butao:
+    st.write(texto)
