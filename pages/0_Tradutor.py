@@ -25,7 +25,7 @@ butao = st.button('Decodificar')
 texto = ''
 samo = 0
 tradu = ''
-codigo += ' '
+codigo += '  '
 
 
 for cod in codigo:
