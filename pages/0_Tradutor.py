@@ -22,11 +22,11 @@ samo = 0
 codigo = st.text_area('Digite o código para o tradutor decodificar')
 butao = st.button('Decodificar')   
 texto = texto + tradu
-if cod1 == " ":
+if codigo == " ":
     tradu = abc[0]
-if cod1 == ". .":
+if codigo == ". .":
     tradu = abc[1]
-if cod1 == ". ..":
+if codigo == ". ..":
     tradu = abc[2]
 if butao:
     st.write(texto)
