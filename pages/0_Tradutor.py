@@ -19,6 +19,8 @@ lista = ['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ...
 bra = [' ']
 samo = 0
 
+codigo += ' '
+
 codigo = st.text_area('Digite o código para o tradutor decodificar')
 butao = st.button('Decodificar')  
 
