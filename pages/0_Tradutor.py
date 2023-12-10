@@ -31,13 +31,15 @@ codigo += ' '
 for cod in codigo:
     if samo == ' ':
         samo += 1
-    if samo == 1:
+    if samo < 2:
         tradu = tradu + cod
     if samo == 2:
         if tradu == '. .':
             texto = texto + 'A'
         if tradu == '. ..':
             texto = texto + 'B'
+        if butao:
+            st.write(texto)
         tradu = ''
         samo = 0
 st.write('https://colab.research.google.com/drive/1yPsr3BiYyA4xaDVIogUY7xyFEGsH9Xuc?usp=drive_open#scrollTo=27yaoUGuANAr')
