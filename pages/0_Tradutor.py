@@ -40,4 +40,4 @@ for cod in codigo:
             texto = texto + 'B'
         tradu = ''
         samo = 0
-st.write(texto)
+st.write(codigo)
