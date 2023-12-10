@@ -20,7 +20,7 @@ bra = [' ']
 
 
 
-codigo = st.text_area('Digite o código para o tradutor decodificar')
+codigo = st.text_input('Digite o código para o tradutor decodificar')
 butao = st.button('Decodificar')  
 texto = ''
 samo = 0
