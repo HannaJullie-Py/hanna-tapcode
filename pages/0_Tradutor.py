@@ -29,7 +29,7 @@ codigo += ' '
 
 
 for cod in codigo:
-    if samo == ' ':
+    if cod == ' ':
         samo += 1
     if samo < 2:
         tradu = tradu + cod
