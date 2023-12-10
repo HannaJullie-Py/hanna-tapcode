@@ -40,4 +40,4 @@ for cod in codigo:
             texto = texto + 'B'
         tradu = ''
         samo = 0
-st.write(codigo)
+st.write('https://colab.research.google.com/drive/1yPsr3BiYyA4xaDVIogUY7xyFEGsH9Xuc?usp=drive_open#scrollTo=27yaoUGuANAr')
