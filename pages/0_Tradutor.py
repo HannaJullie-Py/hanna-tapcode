@@ -39,5 +39,5 @@ for cod in codigo:
         if tradu == '. ..':
             texto = texto + 'B'
         tradu = ''
-        soma = 0
+        samo = 0
 st.write(texto)
