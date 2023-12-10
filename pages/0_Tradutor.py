@@ -30,7 +30,7 @@ codigo += ' '
 
 for cod in codigo:
     if cod == '  ':
-        samo += 1
+        samo = 2
     if samo < 2:
         tradu = tradu + cod
     if samo == 2:
