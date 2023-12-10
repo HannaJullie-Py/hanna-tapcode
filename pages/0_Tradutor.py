@@ -20,13 +20,19 @@ bra = [' ']
 samo = 0
 
 codigo = st.text_area('Digite o código para o tradutor decodificar')
-butao = st.button('Decodificar')   
-texto = texto + tradu
-if codigo == " ":
-    tradu = abc[0]
-if codigo == ". .":
-    tradu = abc[1]
-if codigo == ". ..":
-    tradu = abc[2]
+butao = st.button('Decodificar')  
+
+for cod in codigo:
+    if samo == ' ':
+        samo += 1
+    if samo < 2:
+        tradu = tradu + cod
+    if samo == 2:
+        if tradu == '. .':
+            texto = texto + 'A'
+        if tradu == '. ..':
+            texto = texto + 'B'
+        tradu = ''
+        soma = 0
 if butao:
     st.write(texto)
