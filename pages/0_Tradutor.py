@@ -6,7 +6,7 @@ import time
 st.set_page_config('Tap Code Translate', page_icon='👩‍💻')
 st.header('Tap Code Translate', divider= 'rainbow')
 st.title('Traduzir de Tap Code para palavras')
-
+st.image('https://www.cachesleuth.com/images/tap/tapcode.png')
 code = ['.','..','...','....','.....', 'print']
 code1 = ['.','..','...','....','.....', 'print']
 codem = ['']
