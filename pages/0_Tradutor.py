@@ -5,16 +5,12 @@ import time
 
 st.set_page_config('Tap Code Translate', page_icon='👩‍💻')
 st.header('Tap Code Translate', divider= 'rainbow')
-col1, col2, col3 = st.columns(3)
 st.subheader(':green[Utilize o alfabeto para escrever o seu código!]')
 st.divider()
-with col1:
-    nothing1 = 1
+col1, col2, col3 = st.columns(3)
 with col2:
     st.title('Alfabeto')
     st.image('https://www.cachesleuth.com/images/tap/tapcode.png')
-with col3:
-    nothing1 = 2
 st.divider()
 st.title('Traduzir de Tap Code para palavras')
 code = ['.','..','...','....','.....', 'print']
