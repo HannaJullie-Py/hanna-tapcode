@@ -89,5 +89,5 @@ for cod in codigo:
         tradu = ''
     if samo ==3:
         samo = 0
-st.caption(texto)
-st.write('https://colab.research.google.com/drive/1yPsr3BiYyA4xaDVIogUY7xyFEGsH9Xuc?usp=drive_open#scrollTo=27yaoUGuANAr')
+if butao:
+    st.caption(texto)
