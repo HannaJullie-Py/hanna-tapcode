@@ -107,3 +107,59 @@ st.divider()
 st.title('Traduzir de palavras para Tap Code')
 frase = st.text_input('Digite o código para o tradutor codificar')
 botao = st.button('Codificar')  
+for letra in frase:
+    lista.append(letra)
+    if letra == ' ':
+        codu = bra[0] + ' '
+    if letra == 'A':
+        codu = lista[0] + ' '
+    if letra == 'B':
+        codu = lista[1] + ' '
+    if letra == 'C':
+        codu = lista[2] + ' '
+    if letra == 'D':
+        codu = lista[3] + ' '
+    if letra == 'E':
+        codu = lista[4] + ' '
+    if letra == 'F':
+        codu = lista[5] + ' '
+    if letra == 'G':
+        codu = lista[6] + ' '
+    if letra == 'H':
+        codu = lista[7] + ' '
+    if letra == 'I':
+        codu = lista[8] + ' '
+    if letra == 'J':
+        codu = lista[9] + ' '
+    if letra == 'L':
+        codu = lista[10] + ' '
+    if letra == 'M':
+        codu = lista[11] + ' '
+    if letra == 'N':
+        codu = lista[12] + ' '
+    if letra == 'O':
+        codu = lista[13] + ' '
+    if letra == 'P':
+        codu = lista[14] + ' '
+    if letra == 'Q':
+        codu = lista[15] + ' '
+    if letra == 'R':
+        codu = lista[16] + ' '
+    if letra == 'S':
+        codu = lista[17] + ' '
+    if letra == 'T':
+        codu = lista[18] + ' '
+    if letra == 'U':
+        codu = lista[19] + ' '
+    if letra == 'V':
+        codu = lista[20] + ' '
+    if letra == 'W':
+        codu = lista[21] + ' '
+    if letra == 'X':
+        codu = lista[22] + ' '
+    if letra == 'Y':
+        codu = lista[23] + ' '
+    if letra == 'Z':
+        codu = lista[24] + ' '
+    codi = codi + codu + " "
+st.write()
