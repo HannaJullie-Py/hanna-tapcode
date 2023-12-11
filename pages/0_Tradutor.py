@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import time
 
 st.set_page_config('Tap Code Translate', page_icon='👩‍💻')
 st.header('Tap Code Translate', divider= 'rainbow')
@@ -90,4 +91,7 @@ for cod in codigo:
     if samo ==3:
         samo = 0
 if butao:
+    with st.spinner('Carregando...'):
+        time.sleep(5)
+    st.markdown(' **Texto Decodificado** ')
     st.caption(texto)
