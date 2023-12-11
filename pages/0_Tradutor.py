@@ -103,3 +103,7 @@ if butao:
     st.caption(f':violet[{texto}]')
 
 st.divider()
+
+st.title('Traduzir de palavras para Tap Code')
+codigo = st.text_input('Digite o código para o tradutor decodificar')
+butao = st.button('Decodificar')  
