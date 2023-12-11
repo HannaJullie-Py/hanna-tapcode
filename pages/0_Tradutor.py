@@ -93,5 +93,6 @@ for cod in codigo:
 if butao:
     with st.spinner('Carregando...'):
         time.sleep(5)
-    st.markdown(' **Texto Decodificado** ')
-    st.caption(f':violet[{texto}]')
+    with st.container():
+        st.markdown(' **Texto Decodificado** ')
+        st.caption(f':violet[{texto}]')
