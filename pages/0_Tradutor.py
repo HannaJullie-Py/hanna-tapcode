@@ -10,7 +10,7 @@ st.divider()
 col1, col2, col3 = st.columns(3)
 with col2:
     st.title('Alfabeto')
-    st.image('https://www.cachesleuth.com/images/tap/tapcode.png')
+    st.image('https://www.cachesleuth.com/images/tap/tapcode.png',width=200)
 st.divider()
 st.title('Traduzir de Tap Code para palavras')
 code = ['.','..','...','....','.....', 'print']
