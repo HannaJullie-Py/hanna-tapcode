@@ -94,4 +94,4 @@ if butao:
     with st.spinner('Carregando...'):
         time.sleep(5)
     st.markdown(' **Texto Decodificado** ')
-    st.caption(texto)
+    st.caption(f':violet[{texto}]')
