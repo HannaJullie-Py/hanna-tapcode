@@ -105,5 +105,5 @@ if butao:
 st.divider()
 
 st.title('Traduzir de palavras para Tap Code')
-codigo = st.text_input('Digite o código para o tradutor decodificar')
-butao = st.button('Decodificar')  
+frase = st.text_input('Digite o código para o tradutor codificar')
+botao = st.button('Codificar')  
