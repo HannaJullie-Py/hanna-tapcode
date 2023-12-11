@@ -5,6 +5,7 @@ import time
 
 st.set_page_config('Tap Code Translate', page_icon='👩‍💻')
 st.header('Tap Code Translate', divider= 'rainbow')
+st.title('Traduzir de Tap Code para palavras')
 
 code = ['.','..','...','....','.....', 'print']
 code1 = ['.','..','...','....','.....', 'print']
@@ -94,3 +95,5 @@ if butao:
     with st.spinner('Carregando...'):
         time.sleep(5)
     st.caption(f':violet[{texto}]')
+
+st.divider()
