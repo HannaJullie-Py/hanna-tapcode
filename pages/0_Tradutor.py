@@ -162,5 +162,5 @@ for letra in frase:
     if letra == 'Z':
         codu = lista[24] + ' '
     codi = codi + codu + bra[0]
-st.write(codi)
+st.code(codi, 'python')
 st.divider()
