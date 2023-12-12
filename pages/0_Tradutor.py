@@ -39,11 +39,11 @@ codigo += '  '
 for cod in codigo:
     if cod == ' ':
         samo +=1
-    if cod == '/':
-        texto = texto + '  '
     if samo < 2:
         tradu = tradu + cod
     if samo == 2:
+        if cod == '/':
+            texto = texto + '  '
         if tradu == '. .':
             texto = texto + 'A'
         if tradu == '. ..':
