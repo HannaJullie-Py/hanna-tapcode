@@ -112,11 +112,11 @@ for letra in frase:
     if letra == ' ':
         codu = '/' + bra[0]
     if letra == 'A':
-        codu = lista[0] + '  '
+        codu = lista[0] + ' '
     if letra == 'B':
-        codu = lista[1] + '  '
+        codu = lista[1] + ' '
     if letra == 'C':
-        codu = lista[2] + '  '
+        codu = lista[2] + ' '
     if letra == 'D':
         codu = lista[3] + ' '
     if letra == 'E':
