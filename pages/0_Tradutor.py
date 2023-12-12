@@ -118,49 +118,49 @@ for letra in frase:
     if letra == 'C':
         codu = lista[2] + ''
     if letra == 'D':
-        codu = lista[3] + ' '
+        codu = lista[3] + ''
     if letra == 'E':
-        codu = lista[4] + ' '
+        codu = lista[4] + ''
     if letra == 'F':
-        codu = lista[5] + ' '
+        codu = lista[5] + ''
     if letra == 'G':
-        codu = lista[6] + ' '
+        codu = lista[6] + ''
     if letra == 'H':
-        codu = lista[7] + ' '
+        codu = lista[7] + ''
     if letra == 'I':
-        codu = lista[8] + ' '
+        codu = lista[8] + ''
     if letra == 'J':
-        codu = lista[9] + ' '
+        codu = lista[9] + ''
     if letra == 'L':
-        codu = lista[10] + ' '
+        codu = lista[10] + ''
     if letra == 'M':
-        codu = lista[11] + ' '
+        codu = lista[11] + ''
     if letra == 'N':
-        codu = lista[12] + ' '
+        codu = lista[12] + ''
     if letra == 'O':
-        codu = lista[13] + ' '
+        codu = lista[13] + ''
     if letra == 'P':
-        codu = lista[14] + ' '
+        codu = lista[14] + ''
     if letra == 'Q':
-        codu = lista[15] + ' '
+        codu = lista[15] + ''
     if letra == 'R':
-        codu = lista[16] + ' '
+        codu = lista[16] + ''
     if letra == 'S':
-        codu = lista[17] + ' '
+        codu = lista[17] + ''
     if letra == 'T':
-        codu = lista[18] + ' '
+        codu = lista[18] + ''
     if letra == 'U':
-        codu = lista[19] + ' '
+        codu = lista[19] + ''
     if letra == 'V':
-        codu = lista[20] + ' '
+        codu = lista[20] + ''
     if letra == 'W':
-        codu = lista[21] + ' '
+        codu = lista[21] + ''
     if letra == 'X':
-        codu = lista[22] + ' '
+        codu = lista[22] + ''
     if letra == 'Y':
-        codu = lista[23] + ' '
+        codu = lista[23] + ''
     if letra == 'Z':
-        codu = lista[24] + ' '
+        codu = lista[24] + ''
     codi = codi + codu + bra[0]
 st.code(codi, 'python')
 st.divider()
