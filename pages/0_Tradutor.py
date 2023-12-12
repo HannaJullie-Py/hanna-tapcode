@@ -163,3 +163,4 @@ for letra in frase:
         codu = lista[24] + ' '
     codi = codi + codu + " "
 st.write(codi)
+st.divider()
