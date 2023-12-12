@@ -110,7 +110,7 @@ botao = st.button('Codificar')
 for letra in frase:
     lista.append(letra)
     if letra == ' ':
-        codu = '/' + bra[0]
+        codu = '/' + ''
     if letra == 'A':
         codu = lista[0] + ''
     if letra == 'B':
