@@ -100,7 +100,7 @@ for cod in codigo:
 if butao:
     with st.spinner('Carregando...'):
         time.sleep(5)
-    st.code(f':violet[{texto}]')
+    st.caption(f':violet[{texto}]')
 
 st.divider()
 
