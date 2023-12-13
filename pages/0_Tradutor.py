@@ -24,7 +24,8 @@ i = 0
 abc2 =['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ....','.. .....','... .','... ..','... ...','... ....', '... .....','.... .','.... ..','.... ...','.... ....', '.... .....','..... .','..... ..', '..... ...','..... ....','..... .....']
 lista = ['. . ','. .. ','. ... ','. .... ','. ..... ','.. . ','.. .. ','.. ... ','.. .... ','.. ..... ','... . ','... .. ','... ... ','... .... ', '... ..... ','.... . ','.... .. ','.... ... ','.... .... ', '.... ..... ','..... . ','..... .. ', '..... ... ','..... .... ','..... ..... ']
 bra = [' ']
-
+p_espaco = []
+codi_final = ''
 
 
 
@@ -108,7 +109,6 @@ st.title('Traduzir de palavras para Tap Code')
 frase = st.text_input('Digite o código para o tradutor codificar')
 botao = st.button('Codificar')  
 for letra in frase:
-    space = False
     lista.append(letra)
     if letra == ' ':
         codu = '/' + ' '
@@ -163,10 +163,15 @@ for letra in frase:
         codu = lista[23]
     if letra == 'Z':
         codu = lista[24] 
-    if space == False:
-        codi = codi + codu + ' '
-    if space == True:
-        codi = codi + codu
-
+    codi = codi + codu + ' '
+for letra in codi:
+    if letra == '/':
+        p_espaco.append(letra)
+        del p_espaco[i-1]
+    else:
+        p_espaco.append(letra)
+    i = i+1
+for letra in p_espaco:
+    codi_final += letra
 st.text(codi)
 st.divider()
