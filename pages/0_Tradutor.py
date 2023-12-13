@@ -109,9 +109,11 @@ st.title('Traduzir de palavras para Tap Code')
 frase = st.text_input('Digite o código para o tradutor codificar')
 botao = st.button('Codificar')  
 for letra in frase:
+    space = True
     lista.append(letra)
     if letra == ' ':
         codu = '/'
+        space = False
     if letra == 'A':
         codu = lista[0]
     if letra == 'B':
@@ -162,6 +164,9 @@ for letra in frase:
         codu = lista[23]
     if letra == 'Z':
         codu = lista[24] 
-    codi = codi + codu + ' '
+    if space:
+        codi = codi + codu
+    else:
+        codi = codi + codu + ' '
 st.text(codi)
 st.divider()
