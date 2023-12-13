@@ -111,7 +111,7 @@ for letra in frase:
     space = False
     lista.append(letra)
     if letra == ' ':
-        codu = '/' + ' "
+        codu = '/' + ' '
         space = True
     if letra == 'A':
         codu = lista[0]
