@@ -44,7 +44,6 @@ for cod in codigo:
     if cod == '/':
         texto = texto + ' '
     if samo == 2:
-
         if tradu == '. .':
             texto = texto + 'A'
         if tradu == '. ..':
@@ -112,7 +111,7 @@ for letra in frase:
     space = False
     lista.append(letra)
     if letra == ' ':
-        codu = '/'
+        codu = '/' + ' "
         space = True
     if letra == 'A':
         codu = lista[0]
