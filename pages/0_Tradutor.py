@@ -173,5 +173,5 @@ for letra in codi:
     i = i+1
 for letra in p_espaco:
     codi_final += letra
-st.text(codi)
+st.text(codi_final)
 st.divider()
