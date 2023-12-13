@@ -41,9 +41,10 @@ for cod in codigo:
         samo +=1
     if samo < 2:
         tradu = tradu + cod
+    if cod == '/':
+        texto = texto + ' '
     if samo == 2:
-        if tradu == '/':
-            texto = texto + ' '
+
         if tradu == '. .':
             texto = texto + 'A'
         if tradu == '. ..':
