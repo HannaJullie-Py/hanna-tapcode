@@ -4,7 +4,7 @@ import pandas as pd
 
 st.set_page_config('Tap Code Translate', page_icon='👩‍💻')
 st.header('Tap Code Translate', divider= 'rainbow')
-st.subheader(':grey[by Hanna]')
+st.subheader(':green[by Hanna]')
 st.divider()
 st.title('Tradutor')
 st.write('Esse tradutor foi criado para aquelas pessoas que desejam traduzir ou decodificar alguma mensagem feita pela mesma.')
