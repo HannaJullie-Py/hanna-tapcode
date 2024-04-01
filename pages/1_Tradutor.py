@@ -167,10 +167,10 @@ for letra in frase:
 for letra in codi:
     if letra == '/':
         p_espaco.append(letra)
-        #del p_espaco[i-1]
+        del p_espaco[i-1]
     else:
         p_espaco.append(letra)
-    i = i+1
+        i = i+1
 for letra in p_espaco:
     codi_final += letra
 if botao:
